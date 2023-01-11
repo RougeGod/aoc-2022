@@ -20,11 +20,7 @@ if (err != nil) {
 
 file := string(filecontents)
 createmaps(file)
-
-//root: cgdh == qhpl (only qhpl depends on humn)
-//answer: 3 006 709 232 464
-scores["humn"] = 3006709232464
-target := getMonkeyScore("qhpl")
+//I had a really stupid way of finding the answer and it wasn't really in the code when I got it so it has been removed
 
 }
 
